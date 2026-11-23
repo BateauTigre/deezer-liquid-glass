@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Deezer Liquid Glass",
+  "version": "1.9.0",
+  "description": "Thème Liquid Glass (blanc / noir) pour Deezer web : verre, lumière qui suit la souris, plein écran sur la pochette. Projet perso, non affilié à Deezer.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.deezer.com/*"
+      ],
+      "js": [
+        "deezer-liquid-glass.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "homepage_url": "https://github.com/BateauTigre"
+}
